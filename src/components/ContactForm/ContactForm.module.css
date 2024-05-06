@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: 2px solid #e97ecb;
+    border-radius: 12px;
+    padding: 72px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #e97ecb;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: #511c42;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.text{
+ text-align: left;
+ font-weight: 700;
+}
