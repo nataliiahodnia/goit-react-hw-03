@@ -1,0 +1,23 @@
+.btn {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #e97ecb;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    height: 50px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #511c42;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-weight: 600;
+}
+
